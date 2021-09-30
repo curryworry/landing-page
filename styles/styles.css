@@ -114,7 +114,47 @@ ul{
 }
 
 .info-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.info-icons p{
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F2937;
+    padding: 50px 0;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.icons img{
+    width: 200px;
+    border:2px solid #3882F6;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+figcaption{
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .quote{
