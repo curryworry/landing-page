@@ -197,6 +197,8 @@ figcaption{
     background-color: #3882F6;
     margin: 80px;
     padding: 50px;
+    margin-left: 10vw;
+    margin-right: 10vw;
     display: flex;
     justify-content: space-between;
     border-radius: 8px;
